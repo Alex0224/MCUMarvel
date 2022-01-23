@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon-marvel.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Marvel - MCU</title>
+</head>
+<body>
+
+    <div class="modal">
+        <div class="modal-card">
+            <div class="nav-modal">
+                <button onclick="closeModal()">X</button>
+                <hr>
+            </div>
+            <div class="header-modal">
+                <h1 class="title-modal-hero">Meu nome é</h1>
+            </div>
+            <div class="body-modal">
+                <div class="img-modal">
+                    <img id="imgHeroModal" src="img/aside-right-marvel.jpg" alt="IMG do Modal">
+                </div>
+                <div class="texts-modal">
+                    <label>Descrição:</label>
+                    <p class="descriptionHero">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat perspiciatis odio, in, consectetur corporis sit, reprehenderit quo culpa natus deleniti laboriosam vel tempore doloremque aliquam vitae voluptatibus dignissimos odit eos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="ContainerHeader">
+            <img src="img/Marvel_Logo.png" alt="Logo da Marvel">
+        </div>
+    </header>
+
+    <main class="container-one">
+        <aside class="aside-left">
+            <img src="img/aside-left-marvel.jpg" alt="Imagem lateral do homem de ferro.">
+        </aside>
+        <section class="text-center">
+            <h1>Marvel - MCU</h1>
+            <p>Estamos aqui para te apresentar alguns heróis do MCU da Marvel. Clique sobre eles e descubra mais! Focamos nos principais heróis quem o Universo Cinematográfico da Marvel (MCU) nos proporcionou até os dias atuais.</p>
+        </section>
+        <aside class="aside-right">
+            <img src="img/aside-right-marvel.jpg" alt="Imagem lateral do capitão américa">
+        </aside>
+    </main>
+
+    <section class="group-cards">
+        <div class="card">
+            <div class="card-header">
+                <img src="img/capitao-america-card.jpg" alt="Imagem do capitão américa clicável.">
+            </div>
+            <div class="card-body">
+                <h3>Capitão América</h3>
+            </div>
+            <div class="card-footer">
+                <button onclick="callModalCA()">Saiba Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="img/homem-de-ferro-card.jpg" alt="Imagem do homem de ferro clicável.">
+            </div>
+            <div class="card-body">
+                <h3>Homem de Ferro</h3>
+            </div>
+            <div class="card-footer">
+                <button onclick="callModalHF()">Saiba Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="img/thor-card.jpg" alt="Imagem do thor clicável.">
+            </div>
+            <div class="card-body">
+                <h3>Thor</h3>
+            </div>
+            <div class="card-footer">
+                <button onclick="callModalThor()">Saiba Mais</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="group-cards">
+        <div class="card">
+            <div class="card-header">
+                <img src="img/capita-marvel-card.webp" alt="Imagem da capitã marvel clicável.">
+            </div>
+            <div class="card-body">
+                <h3>Capitã Marvel</h3>
+            </div>
+            <div class="card-footer">
+                <button onclick="callModalCM()">Saiba Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="img/hulk-card.jpg" alt="Imagem do hulk clicável.">
+            </div>
+            <div class="card-body">
+                <h3>Hulk</h3>
+            </div>
+            <div class="card-footer">
+                <button onclick="callModalHulk()">Saiba Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="img/pantera-negra-card.jpg" alt="Imagem do pantera negra clicável.">
+            </div>
+            <div class="card-body">
+                <h3>Pantera Negra</h3>
+            </div>
+            <div class="card-footer">
+                <button onclick="callModalPN()">Saiba Mais</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="group-cards">
+        <div class="card">
+            <div class="card-header">
+                <img src="img/gaviao-arqueiro-card.jpg" alt="Imagem do gavião arqueiro clicável.">
+            </div>
+            <div class="card-body">
+                <h3>Gavião Arqueiro</h3>
+            </div>
+            <div class="card-footer">
+                <button onclick="callModalGA()">Saiba Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="img/doutor-estranho-card.jpg" alt="Imagem do doutor estranho clicável.">
+            </div>
+            <div class="card-body">
+                <h3>Doutor Estranho</h3>
+            </div>
+            <div class="card-footer">
+                <button onclick="callModalDE()">Saiba Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="img/wanda-maximoff-card.jpg" alt="Imagem da wanda maximoff clicável.">
+            </div>
+            <div class="card-body">
+                <h3>Wanda Maximoff</h3>
+            </div>
+            <div class="card-footer">
+                <button onclick="callModalWM()">Saiba Mais</button>
+            </div>
+        </div>
+    </section>
+    <!--
+
+    -->
+    <section class="group-cards">
+        <div class="card">
+            <div class="card-header">
+                <img src="img/homem-aranha-card.webp" alt="Imagem do homem-aranha clicável.">
+            </div>
+            <div class="card-body">
+                <h3>Homem Aranha</h3>
+            </div>
+            <div class="card-footer">
+                <button onclick="callModalHA()">Saiba Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="img/homem-formiga-card.jpg" alt="Imagem do homem formiga clicável.">
+            </div>
+            <div class="card-body">
+                <h3>Homem Formiga</h3>
+            </div>
+            <div class="card-footer">
+                <button onclick="callModalFormiga()">Saiba Mais</button>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="img/visao-card.jpg" alt="Imagem do visão clicável.">
+            </div>
+            <div class="card-body">
+                <h3>Visão</h3>
+            </div>
+            <div class="card-footer">
+                <button onclick="callModalVisao()">Saiba Mais</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>by: Alex Assis</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
